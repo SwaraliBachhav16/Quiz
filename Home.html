@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="Home.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div class="question">
+          <p id="question-text">Question 1: Who is the prime Minister of India?</p>
+          <div class="choices">
+            <button class="choice" onclick="checkAnswer(0)">Indira Gandhi</button>
+            <button class="choice" onclick="checkAnswer(1)">Narendra Modi</button>
+            <button class="choice" onclick="checkAnswer(2)">Jawaharlal Nehru</button>
+            <button class="choice" onclick="checkAnswer(3)">Rajiv Gandhi</button>
+          </div>
+          <p id="feedback"></p>
+        </div>
+    </div>
+    
+    <script src="Home.js"></script>
+
+</body>
+</html>
